@@ -1,0 +1,39 @@
+.item {
+  display: flex;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 20px;
+  padding: 15px;
+}
+
+.item__divider {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.item__divider * {
+  flex-shrink: 0;
+}
+
+.item__divider .item__hr-line {
+  width: 90%;
+  flex-shrink: 1;
+  margin: 25px
+}
+
+.item__button {
+  float: right;
+  padding: 7px 15px;
+  background: #444;
+  border: 2px solid #444;
+  color: #fafafa;
+  cursor: pointer;
+  transition: all .2s;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.item__button:hover {
+  background: #f1f1f1;
+  color: #444;
+}

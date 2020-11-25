@@ -1,0 +1,7 @@
+<ul>
+  <li class="item item__divider">
+    <p>{{user.name}}</p>
+    <span class="item__hr-line" [ngStyle]="{border: getColor(user.color)}"></span>
+    <button class="item__button" type="button" (click)="onUserSelect()">Click Me</button>
+  </li>
+</ul>
